@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta chaarset="utf-8">
+<meta name="veiwport" content="width=device-width,initial-scale-1">
+<title>js conditional</title>
+</head>
+<body>
+<h1 id="demo"></h1>
+<script type="text/javascript">
+if (new Date().getHours() < 12)
+{
+document.getElementById("demo").innerHTML = "Good Day"
+}
+else if (new Date().getHours() < 10)
+{
+document.getElementById("demo").innerHTML = "Good Nigth"
+}
+else
+{
+document.getElementById("demo").innerHTML = "Good Morning"
+}
+
+</script>
+</body>
+</html>
